@@ -1,6 +1,6 @@
 # 3d draw function
 import numpy as np
-import plotly.plotly as py
+import chart_studio.plotly as py
 import plotly.graph_objs as go
 from .data_prep import volume_to_point_cloud
 from plotly.offline import init_notebook_mode, iplot
